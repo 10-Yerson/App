@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".animales"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Animales"
+        android:layout_margin="50dp"
+        android:textSize="40dp"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textColor="@color/aClaro"
+
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        >
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/perro"
+            android:layout_marginEnd="60dp"
+
+            />
+        <Button
+            android:id="@+id/btnperro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perro"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        >
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/panda"
+            android:layout_marginEnd="60dp"
+
+            />
+        <Button
+            android:id="@+id/btnpanda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Panda"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        >
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/tigre"
+            android:layout_marginEnd="60dp"
+
+            />
+        <Button
+            android:id="@+id/btntigre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tigre"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

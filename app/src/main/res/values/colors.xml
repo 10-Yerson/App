@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue"> #00308F</color>
+    <color name="vClaro">#7FFFD4</color>
+    <color name="azure">#007FFF</color>
+    <color name="aClaro" >#00356B</color>
+    <color name="capri">#00BFFF</color>
+    <color name="emerald">#50C878</color>
+    <color name="red" >#D2122E</color>
+</resources>
